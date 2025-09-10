@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+reportlab
+fastapi
+uvicorn[standard]
+python-multipart
+scikit-learn
+python-docx
+PyPDF2
+reportlab
+SQLAlchemy
+pydantic
