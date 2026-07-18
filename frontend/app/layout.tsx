@@ -1,25 +1,16 @@
-// app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "SIH Dashboard",
-  description: "Student Interaction Hub",
+  title: "SentinelAI - AI Detection & Plagiarism Platform",
+  description: "Professional AI content detection and plagiarism checking platform.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>
-        {/* Remove className since it's already in globals.css */}
-        
-        <main className="container mx-auto px-6">{children}</main>
-      </body>
+    <html lang="en" className="scroll-smooth">
+      <body className="min-h-screen font-sans bg-gray-50 text-gray-900 antialiased">{children}</body>
     </html>
   );
 }

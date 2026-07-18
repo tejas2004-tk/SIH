@@ -1,14 +1,6 @@
-fastapi
-uvicorn[standard]
-python-multipart
-aiofiles
-reportlab
-fastapi
-uvicorn[standard]
-python-multipart
-scikit-learn
+flask
+flask-cors
 python-docx
 PyPDF2
-reportlab
 SQLAlchemy
-pydantic
+werkzeug
